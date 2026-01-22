@@ -29,3 +29,21 @@
 // 		System.out.println(d);
 // 	}
 // }
+//--------------------------------------------------------------------------------------------------
+// class student2{
+// 	public static void main(String arg[]){
+// 	char ch='M';
+// 	System.out.println(ch);
+// 	char num=2;
+// 	System.out.println(num);
+//     char num1='2';
+// 	System.out.println(num1);
+// 	char c=65500;
+// 	System.out.println(c);
+// 	char smiley='\u263A';
+// 	System.out.println(smiley);
+// 	String text="I love coding \u2764";
+// 	System.out.println(text);
+
+// }
+// }
