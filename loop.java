@@ -1,5 +1,7 @@
 // import java.util.Scanner;
 
+
+// even odd
 // public class loop {
 //     public static void main(String[] args) {
 //         Scanner sc=new Scanner(System.in);
@@ -44,6 +46,8 @@
 //     }
 // }
 
+
+//sum of digit
 // public class loop {
 
 //     public static void main(String[] args) {
@@ -60,7 +64,9 @@
 //        sc.close();
 //     }
 // }
+ 
 
+//reverse
 // public class loop {
 
 //     public static void main(String[] args) {
@@ -76,8 +82,9 @@
 //      sc.close();
 //     }
 // }
+ 
 
-
+//factorial
 // public class loop {
 
 //     public static void main(String[] args) {
@@ -91,8 +98,9 @@
 //      sc.close();
 //     }
 // }
+ 
 
-
+//fabonacci
 // public class loop {
 
 //     public static void main(String[] args) {
@@ -111,7 +119,7 @@
 //     }
 // }
 
-
+//prime no
 // public class loop {
 
 //     public static void main(String[] args) {
@@ -141,42 +149,37 @@
 // }
 
 
-// public class loop {
+//armstrong no
 
-//     public static void main(String[] args) {
-//         Scanner sc=new Scanner(System.in);
-//         int n=sc.nextInt();
-//         for(int i=1;i<=n;i++){
-//             for(int j=1;j<n;j++){
-//                 System.out.print("*");
-//             }
-//             System.err.println(" ");
+import java.util.Scanner;
+public class loop {
 
-//         }
-//         sc.close();
-//     }
-// }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter numb");
+        int n=sc.nextInt();
+        int temp=n;
+        int d=0;
+        while(temp!=0){
+            d++;
+            temp/=10;
+        }
+        temp=n;
+        int s=0;
+        while(temp!=0){
+            int rem=temp%10;
+            s+=Math.pow(rem,d);
+            temp/=10;
+        }
+        
+        if (s == n)
+            System.out.println("Armstrong Number");
+        else
+            System.out.println("Not an Armstrong Number");
 
+        sc.close();
+    }
+}
 
-// public class loop {
-
-//     public static void main(String[] args) {
-//         Scanner sc=new Scanner(System.in);
-//         int n=sc.nextInt();
-//         for(int i=1;i<=n;i++){
-//             for(int j=1;j<=n;j++){
-//                 if(i==1||i==n||j==1||j==n){
-//                 System.out.print("*");
-//                 }
-//                 else{
-//                     System.out.print(" ");
-//                 }
-//             }
-//             System.err.println(" ");
-
-//         }
-//         sc.close();
-//     }
-// }
 
 
