@@ -85,6 +85,17 @@ public class typecasting{
 //		if(a>5|++b>20) {
 //			System.out.println(b);//21
 //		}
-		
+//-----------------------------------------------------------------	
+//		if(false)
+//			System.out.println("PartA");
+//		    System.out.println("partb");
+//=> skip first line and output partb
+//--------------------------------------------------------------------
+//int i=10;
+//float f=5.5f;
+//double d=1.2;
+//double res=(f*i)+(i/d);
+//System.out.println(res);
+//------------------------------------------------------------------------	
 }
 }
