@@ -1,3 +1,4 @@
+package selfpractice;
 // import java.util.Scanner;
 
 

@@ -1,3 +1,4 @@
+package selfpractice;
 //solid rectangle
 // public class loop {
 
