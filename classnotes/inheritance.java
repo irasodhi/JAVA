@@ -33,9 +33,9 @@
 //        woods.hostelInfo();
 //    }
 // }
-class hostel{
+class inheritance{//hostel
 	int nostudent=50;
-	public hostel(int nos) {
+	public inheritance(int nos) {
 		this.nostudent=nos;
 		System.out.println(nostudent);
 	}
@@ -45,7 +45,7 @@ class hostel{
 }
 
 
-class woods1 extends hostel{
+class woods1 extends inheritance{//hostel
 	public woods1() {
 		super(200);
 		System.out.println("calling wood constructor");
