@@ -29,6 +29,22 @@ public static void main(String[] args) {
 //	System.out.println(sum);
 //	double avg=(double)sum/n;
 //	System.out.println(avg);
+//2d array
+	// Scanner sc=new Scanner(System.in);
+	// int[][] array=new int[3][3];
+	// System.out.println("enter n");
+	// for(int i=0;i<array.length;i++) {
+	// 	for(int j=0;j<array[i].length;j++) {
+	// 		array[i][j]=sc.nextInt();
+	// 	}
+	// }
+	// for(int i=0;i<array.length;i++) {
+	// 	for(int j=0;j<array[i].length;j++) {
+	// 		System.out.print(array[i][j] + " ");
+	// 	}
+	// 	System.out.println("");
+	// }
+	
 	
 }
 }
