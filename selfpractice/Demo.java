@@ -1,4 +1,5 @@
 package selfpractice;
+import java.util.Scanner;
 // class student{
 //     public static void main(String[] ira) {
 //         System.out.println("welcome to chitkara");
@@ -48,3 +49,33 @@ package selfpractice;
 
 // }
 // }
+
+class Demo{
+    public static void main(String[] args) {
+        
+    
+    Scanner sc=new Scanner(System.in);
+    // char c=sc.next().charAt(0);
+    // int a=sc.nextInt();
+    // int b=sc.nextInt();
+    // int ans=0;
+    // char ans=c;
+    // if(Character.isUpperCase(c)){
+    //     ans=Character.toLowerCase(c);
+    // }
+    // System.out.println(ans);
+    // switch(c){
+    //     case '+':
+    //     ans=a+b;
+    //     break;
+    //     case '-':
+    //         ans=a-b;
+    //     break;    
+
+ 
+    // }
+    // System.out.println(ans);
+    // int n=sc.nextInt();
+
+    
+}}

@@ -1,4 +1,4 @@
-package selfpractice;
+
 //solid rectangle
 // public class loop {
 
@@ -19,7 +19,7 @@ package selfpractice;
 
 
 //hollow rectangle
-// public class loop {
+// public class pattern {
 
 //     public static void main(String[] args) {
 //         Scanner sc=new Scanner(System.in);
