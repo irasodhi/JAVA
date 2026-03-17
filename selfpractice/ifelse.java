@@ -1,4 +1,4 @@
-package selfpractice;
+ 
 // import java.util.Scanner;
 
 // public class ifelse {

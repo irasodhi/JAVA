@@ -1,4 +1,4 @@
-package selfpractice;
+ 
 // import java.util.Scanner;
 
 
@@ -153,34 +153,49 @@ package selfpractice;
 //armstrong no
 
 import java.util.Scanner;
-public class loop {
+// public class loop {
 
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+//         System.out.println("enter numb");
+//         int n=sc.nextInt();
+//         int temp=n;
+//         int d=0;
+//         while(temp!=0){
+//             d++;
+//             temp/=10;
+//         }
+//         temp=n;
+//         int s=0;
+//         while(temp!=0){
+//             int rem=temp%10;
+//             s+=Math.pow(rem,d);
+//             temp/=10;
+//         }
+        
+//         if (s == n)
+//             System.out.println("Armstrong Number");
+//         else
+//             System.out.println("Not an Armstrong Number");
+
+//         sc.close();
+//     }
+// }
+
+
+
+public class loop{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter numb");
         int n=sc.nextInt();
-        int temp=n;
-        int d=0;
-        while(temp!=0){
-            d++;
-            temp/=10;
+        int arr[]= new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
         }
-        temp=n;
-        int s=0;
-        while(temp!=0){
-            int rem=temp%10;
-            s+=Math.pow(rem,d);
-            temp/=10;
-        }
+        int temp[]=new int [n];
+        int indx=0;
         
-        if (s == n)
-            System.out.println("Armstrong Number");
-        else
-            System.out.println("Not an Armstrong Number");
 
-        sc.close();
+        
     }
 }
-
-
-
