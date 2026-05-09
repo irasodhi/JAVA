@@ -92,5 +92,19 @@ public class Strings{
 // System.out.println(result.toString().trim());
 //     }
 
+
+
+HashMap<Character,Integer>mp=new HashMap<>();
+for(char c:str.toCharArray()){
+    map.put(c,map.getOrDefault(c,0)+1);
+}
+List<Character>li=new ArrayList<>(map.keySet());
+Collection.sort(list);
 }
 }
+
+
+
+
+
+HashMap<Character,Integer>mp=new HashMap<>();
